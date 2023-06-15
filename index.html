@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Empréstimo</title>
+    <title>Simulador de Investimento</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
     <div class="container">
 
-        <h1>Simulador de Empréstimo</h1>
-
-        <form>
+        <h1>Simulador de Investimento</h1>
+        
+        <form id="simuladorForm">
 
             <div class="form-group">
                 <label for="nome">Nome:</label>
@@ -27,7 +30,8 @@
 
             <div class="form-group">
                 <label for="tempo">Tempo:</label>
-                <select id="tempo">
+                <select id="tempo" >
+                <option selected value="">-- Selecione --</option>
                 <option value="6">6 meses</option>
                 <option value="7">7 meses</option>
                 <option value="8">8 meses</option>
@@ -42,14 +46,25 @@
 
             <div class="form-group">
                 <label for="juros">Taxa de Juros ao mês:</label>
-                <input type="number" id="juros" placeholder="Digite a taxa de juros">
+                <input type="number" id="juros" placeholder="Escolha a taxa de juros">
             </div>
 
             <button type="submit">SIMULAR</button>
 
         </form>
     </div>
+    
+    <div class="resultado-container" id="resultadoContainer">
+
+        <h1>Simulador de Investimento</h1>
+
+        <h2 id="resultsText"></h2>
+
+        <button type="submit" id="submitAgain">SIMULAR NOVAMENTE</button>
+
+    </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>

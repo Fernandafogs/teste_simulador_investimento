@@ -1,4 +1,4 @@
-# teste_juros_compostos
+# teste_simulador_investimento
 
 # Project Title: 
 Challenge | Frontend Developer (Compound Interest App)

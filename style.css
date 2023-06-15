@@ -1,39 +1,85 @@
+/*-----PRIMEIRA TELA -----*/
 .container {
     max-width: 400px;
     padding: 20px;
     margin-right: 20px;
+    background: black;
+    font-family: 'Be Vietnam Pro', sans-serif;
     
-  }
-  
-  .container h1 {
+}
+
+.container h1 {
     text-align: center;
-  }
-  
-  .form-group {
+    color:rgb(167, 12, 167);
+    text-shadow: 2px 2px 4px #797778;
+    font-weight: 400;
+}
+
+.form-group {
     margin-bottom: 20px;
 
-  }
-  
-  label {
+}
+
+label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-  }
-  
-  input, select {
+    color: rgb(193, 126, 193);
+    font-weight: 200;
+}
+
+input, select {
     width: 94%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
+    color:gray;
+}
   
-  button {
+button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: rgb(117, 10, 117);
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+    display: inline-block;
+    box-shadow: 0 9px #999;
+}
+
+  button:hover {
+    background-color:rgb(199, 15, 199);
+}
+
+  button:active {
+    background-color:rgb(199, 15, 199);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/*-----SEGUNDA TELA -----*/
+
+.resultado-container {
+    max-width: 400px;
+    padding: 20px;
+    margin-right: 20px;
+    background: black;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+
+.resultado-container h1 {
+    text-align: center;
+    color:rgb(167, 12, 167);
+    text-shadow: 2px 2px 4px #797778;
+    font-weight: 400;
+}
+
+#resultsText{
+    text-align: center;
+    color: white;
+    font-weight: 200;
+}
