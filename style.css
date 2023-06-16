@@ -5,7 +5,6 @@
     margin-right: 20px;
     background: black;
     font-family: 'Be Vietnam Pro', sans-serif;
-    
 }
 
 .container h1 {
@@ -17,7 +16,6 @@
 
 .form-group {
     margin-bottom: 20px;
-
 }
 
 label {
@@ -35,7 +33,7 @@ input, select {
     border-radius: 5px;
     color:gray;
 }
-  
+
 button {
     display: block;
     width: 100%;
@@ -49,37 +47,45 @@ button {
     box-shadow: 0 9px #999;
 }
 
-  button:hover {
+button:hover {
     background-color:rgb(199, 15, 199);
 }
 
-  button:active {
+button:active {
     background-color:rgb(199, 15, 199);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
 
-
 /*-----SEGUNDA TELA -----*/
 
-.resultado-container {
+#resultadoContainer {
     max-width: 400px;
+    height: 320px;
     padding: 20px;
     margin-right: 20px;
     background: black;
     font-family: 'Be Vietnam Pro', sans-serif;
-    
 }
 
-.resultado-container h1 {
+#resultadoContainer h1 {
     text-align: center;
     color:rgb(167, 12, 167);
     text-shadow: 2px 2px 4px #797778;
     font-weight: 400;
 }
 
-#resultsText{
+#resultsText {
     text-align: center;
     color: white;
     font-weight: 200;
 }
+
+#submitAgain{
+    margin-top: 100px;
+}
+
+.hidden {
+    display: none;
+  }
+  
